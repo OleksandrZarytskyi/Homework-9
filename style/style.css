@@ -2,15 +2,18 @@ body {
   width: 1440px;
   height: 900px;
   background-color: #f4f6f9;
+  margin: 0 auto;
 }
 .head {
   display: flex;
+  background-image: url(../icons/Frame.svg);
+  background-repeat: no-repeat;
+  height: 665px;
+  background-position-x: 485px;
 }
 .left {
-  margin-top: 4.5%;
-  margin-left: 12.2%;
-  position: absolute;
-  z-index: 7;
+  margin-top: 60px;
+  margin-left: 164px;
 }
 .left a {
   font-family: "Product Sans";
@@ -63,62 +66,164 @@ body {
   border-radius: 6px;
   background-image: url(../icons/GooglePlay1.svg);
 }
-.rite {
-  width: 800px;
-}
-.rit1 {
+
+.contener1 {
+  height: 592px;
   display: flex;
-}
-.rite1 {
-  width: 450px;
-  height: 290px;
-  background-image: url(../icons/Group5.1.svg);
-  background-repeat: no-repeat;
-  position: relative;
-  z-index: 5;
-  left: 853px;
+  background-image: url(../icons/Rectangle1.svg);
+  background-color: linear-gradient(
+      270deg,
+      #ffffff 5.16%,
+      rgba(255, 255, 255, 0) 67.14%
+    ),
+    rgba(255, 255, 255, 0.5);
   background-repeat: no-repeat;
 }
-.rite2 {
-  width: 310px;
-  height: 290px;
-  background-image: url(../icons/Group9.1.svg);
-  position: relative;
-  z-index: 4;
-  left: 678px;
+.left6 {
+  background-image: url(../icons/Rectangle3.svg);
   background-repeat: no-repeat;
+  background-position: 270px 295px;
+  margin-right: 168px;
 }
-.rit2 {
-  display: flex;
-  width: 1440px;
-}
-.rite3 {
-  width: 430px;
-  height: 700px;
-  background-image: url(../icons/Group6.1.svg);
-  position: relative;
-  z-index: 3;
-  left: 626px;
-  bottom: 90px;
-  background-repeat: no-repeat;
-}
-.rite4 {
-  width: 420px;
-  height: 700px;
-  background-image: url(../icons/Group7.1.svg);
-  position: relative;
+.left6up {
+  background-color: #ffffff;
+  padding-top: 27.26px;
+  box-shadow: -15.1278px 16.3884px 33.6173px rgba(0, 0, 0, 0.5);
+  border-radius: 2.74531px;
   z-index: 2;
-  left: 474px;
-  bottom: 90px;
-  background-repeat: no-repeat;
+  margin-top: 109px;
+  margin-left: 163px;
+  margin-right: 100px;
 }
-.rite5 {
-  width: 260px;
-  height: 700px;
-  background-image: url(../icons/Group8.1.svg);
-  position: relative;
+.left6up .clan {
+  margin-left: 4.3%;
+}
+.left6up p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16.7833px;
+  line-height: 22px;
+
+  color: #4f4f4f;
+}
+.left6up h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  width: 77px;
+  margin-top: 11%;
+}
+.left6up h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-top: 15%;
+}
+.left6up h4 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18.8812px;
+  line-height: 25px;
+  color: #4f4f4f;
+  width: 255px;
+}
+.l6upl {
+  display: flex;
+}
+.fkclube {
+  display: flex;
+}
+.left6up .chek {
+  padding: 13.63px 26.24px 10.48px 15.47px;
+  background-color: #eeeeee;
+  border-radius: 0px 0px 4px 4px;
+  margin-top: 6.4%;
+}
+.fkclube .Arsenal {
   z-index: 1;
-  left: 331px;
-  bottom: 90px;
-  background-repeat: no-repeat;
+  margin-left: 112%;
+  margin-top: 26%;
+  width: 72px;
+  height: 85px;
+}
+.fkclube .Chelsea {
+  z-index: 2;
+  margin-left: 80%;
+  margin-top: 22%;
+  width: 85px;
+  height: 84px;
+}
+.chek {
+  display: flex;
+}
+.chek .kr {
+  z-index: 3;
+  margin-left: 35px;
+  margin-top: 1px;
+  position: absolute;
+  width: 26px;
+  height: 26px;
+}
+.chek .pl {
+  z-index: 1;
+  margin-left: 40px;
+  margin-top: 6px;
+  width: 28px;
+  height: 14px;
+}
+.left6down {
+  z-index: 1;
+  margin-top: 38%;
+  margin-left: 34.5%;
+}
+.rite6 {
+  margin-top: 132px;
+}
+.rite6 h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+.rite6 h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin-top: 28px;
+}
+.rite6 p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f4f4f;
+  width: 410px;
+  margin-top: 25px;
+}
+.rite6 a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+
+.rite6 .Learn {
+  margin-top: 24px;
+  margin-bottom: 87px;
 }
