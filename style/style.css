@@ -80,7 +80,6 @@ body {
   background-repeat: no-repeat;
 }
 .left6 {
-  background-image: url(../icons/Rectangle3.svg);
   background-repeat: no-repeat;
   background-position: 270px 295px;
   margin-right: 168px;
@@ -94,6 +93,8 @@ body {
   margin-top: 109px;
   margin-left: 163px;
   margin-right: 100px;
+  position: absolute;
+  z-index: 2;
 }
 .left6up .clan {
   margin-left: 4.3%;
@@ -166,7 +167,7 @@ body {
 }
 .chek .kr {
   z-index: 3;
-  margin-left: 35px;
+  margin-left: 27px;
   margin-top: 1px;
   position: absolute;
   width: 26px;
@@ -174,15 +175,50 @@ body {
 }
 .chek .pl {
   z-index: 1;
-  margin-left: 40px;
-  margin-top: 6px;
+  margin-left: 36px;
+  margin-top: 5px;
   width: 28px;
   height: 14px;
 }
 .left6down {
   z-index: 1;
-  margin-top: 38%;
-  margin-left: 34.5%;
+  padding-top: 168px;
+  background-image: url(../icons/Rectangle3.svg);
+  position: relative;
+  z-index: 1;
+  border-radius: 4px;
+  margin-top: 296px;
+  margin-left: 269px;
+}
+.l6d {
+  display: flex;
+  background-image: url(../icons/Rectangle6.svg);
+  opacity: 0.6;
+  border-radius: 0px 0px 4px 4px;
+  padding: 17.5px 15.83px 16.77px 21px;
+}
+.l6d p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 14px;
+  color: #ffffff;
+}
+.l6d .wec1 {
+  margin-right: 19px;
+  width: 12px;
+  height: 14px;
+}
+.l6d .pol {
+  margin: 0 13px;
+  width: 172px;
+  height: 10px;
+}
+.l6d .wec2 {
+  margin-left: 13.83px;
+  width: 20px;
+  height: 15px;
 }
 .rite6 {
   margin-top: 132px;
