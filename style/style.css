@@ -71,12 +71,7 @@ body {
   height: 592px;
   display: flex;
   background-image: url(../icons/Rectangle1.svg);
-  background-color: linear-gradient(
-      270deg,
-      #ffffff 5.16%,
-      rgba(255, 255, 255, 0) 67.14%
-    ),
-    rgba(255, 255, 255, 0.5);
+  background-color: #ffffff;
   background-repeat: no-repeat;
 }
 .left6 {
@@ -192,10 +187,10 @@ body {
 }
 .l6d {
   display: flex;
-  background-image: url(../icons/Rectangle6.svg);
-  opacity: 0.6;
   border-radius: 0px 0px 4px 4px;
   padding: 17.5px 15.83px 16.77px 21px;
+  background-color: black;
+  opacity: 0.6;
 }
 .l6d p {
   font-family: "Lato";
@@ -262,4 +257,86 @@ body {
 .rite6 .Learn {
   margin-top: 24px;
   margin-bottom: 87px;
+}
+.contener2 {
+  display: flex;
+  background-color: #ffffff;
+  background-image: url(../icons/SAMPLE05.svg);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 716px;
+}
+.left7 {
+  margin-left: 162px;
+}
+.left7 h3 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+  margin-top: 216px;
+}
+.left7 h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+  margin-top: 28px;
+}
+.left7 p {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f4f4f;
+  max-width: 470px;
+  margin-top: 25px;
+}
+.left7 a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+.left7 .Learn2 {
+  margin-top: 55px;
+}
+.reit7 {
+  display: flex;
+}
+.reit7 .belss {
+  width: 123px;
+  height: 123px;
+  position: relative;
+  z-index: 2;
+  margin-top: 129px;
+  margin-left: 218px;
+}
+.reit7 .phon-center {
+  width: 353px;
+  height: 612px;
+  position: absolute;
+  z-index: 1;
+  margin-top: 78px;
+  margin-left: 209px;
+}
+.reit7 .phon-center1 {
+  display: none;
+}
+.reit7 .coll {
+  z-index: 3;
+  margin-left: 131px;
+  margin-top: 300px;
+}
+.reit7 .bay {
+  position: relative;
+  z-index: 3;
+  display: none;
 }

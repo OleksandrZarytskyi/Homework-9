@@ -61,10 +61,10 @@
     background-color: #ffffff;
     background-image: url(../icons/Rectangle4.svg);
     background-repeat: no-repeat;
-    background-position-y: 550px;
-    margin-top: 0px;
+    background-position-y: 417px;
+    margin-top: 50px;
     margin-bottom: 0px;
-    height: 1030px;
+    height: 830px;
   }
   .left6 {
     margin-right: 0px;
@@ -77,13 +77,12 @@
     padding-top: 18.7px;
     border-radius: 4px;
     box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
-    z-index: 2;
+    z-index: 3;
     margin-top: 10px;
     margin-left: 20px;
     margin-right: 10px;
     width: 246px;
     position: absolute;
-    z-index: 2;
   }
   .left6up .clan {
     margin-left: 10px;
@@ -173,7 +172,7 @@
   .left6down {
     z-index: 1;
     padding-top: 115.93px;
-    background-image: url(../icons/Rectangle3.svg);
+    background-image: url(../icons/Rectangle8.svg);
     position: relative;
     z-index: 1;
     border-radius: 4px;
@@ -186,11 +185,9 @@
   .l6d {
     display: flex;
     align-items: center;
-    background-image: url(../icons/Rectangle7.svg);
+    opacity: 0.6;
     border-radius: 0px 0px 2.74531px 2.74531px;
     padding: 12px 10.85px 11.51px 10.42px;
-    background-repeat: no-repeat;
-    opacity: 0.8;
     background-color: black;
   }
   .l6d p {
@@ -269,5 +266,92 @@
     text-align: center;
     margin-left: 20px;
     margin-top: 20px;
+  }
+  .contener2 {
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    background-image: none;
+    background-repeat: no-repeat;
+    width: 360px;
+  }
+  .left7 {
+    margin-top: 0px;
+    margin-left: 0px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+  .left7 h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
+    margin-top: 35px;
+  }
+  .left7 h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    margin-top: 28px;
+  }
+  .left7 p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4f4f4f;
+    max-width: 312px;
+    margin-top: 25px;
+    margin-left: 25px;
+  }
+  .left7 a {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
+  }
+  .left7 .Learn2 {
+    margin-top: 26px;
+  }
+  .reit7 {
+    display: flex;
+    background-image: url(../icons/Group6721.svg);
+    background-color: #ffffff;
+  }
+  .reit7 .belss {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 2;
+    margin-top: 102px;
+    margin-left: 34px;
+  }
+  .reit7 .phon-center {
+    display: none;
+  }
+  .reit7 .phon-center1 {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    margin-top: 94px;
+    margin-left: 27px;
+  }
+  .reit7 .coll {
+    display: none;
+  }
+  .reit7 .bay {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    margin-top: 353px;
+    margin-left: 101px;
   }
 }
