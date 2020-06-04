@@ -1,0 +1,77 @@
+@media (max-width: 720px) {
+  body {
+    max-width: 720px;
+  }
+  .head {
+    max-width: 720px;
+    background-image: none;
+    background-color: #f4f6f9;
+    .left {
+      padding-top: 61px;
+      .boll {
+        margin: auto;
+        max-width: 99px;
+        a {
+          font-family: "Product Sans";
+          font-size: 24px;
+          line-height: 29px;
+          color: #5282f0;
+          margin-left: 4.09px;
+        }
+      }
+      .iforma {
+        padding-top: 137px;
+        h2 {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 36px;
+          line-height: 47px;
+          letter-spacing: 0.03em;
+          color: #333333;
+          max-width: 546px;
+          text-align: center;
+          margin: auto;
+        }
+        p {
+          font-family: Lato;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 26px;
+          color: #4f4f4f;
+          max-width: 453px;
+          padding-top: 26px;
+          text-align: center;
+          margin: auto;
+        }
+      }
+    }
+    .btngrup {
+      display: flex;
+      padding-top: 50px;
+      padding-bottom: 164px;
+      max-width: 352px;
+      margin: auto;
+      .bt1 {
+        .btn1 {
+          border: 0;
+          padding: 23.5px 78px;
+          border-radius: 7.33503px;
+          background-repeat: no-repeat;
+          background-image: url(../icons/AppleStore.svg);
+        }
+      }
+      .bt2 {
+        padding-left: 0px;
+        .btn2 {
+          border: 0;
+          padding: 23.5px 79px;
+          border-radius: 7.33503px;
+          background-repeat: no-repeat;
+          background-image: url(../icons/GooglePlay.svg);
+        }
+      }
+    }
+  }
+}

@@ -1,642 +1,76 @@
 body {
   width: 1440px;
-  height: 900px;
-  background-color: #f4f6f9;
-  margin: 0 auto;
 }
+
 .head {
-  display: flex;
+  max-width: 1440px;
   background-image: url(../icons/Frame.svg);
   background-repeat: no-repeat;
-  height: 665px;
-  background-position-x: 485px;
+  background-position: 484px 0px;
+  background-color: #f4f6f9;
 }
-.left {
-  margin-top: 60px;
-  margin-left: 164px;
+.head .left {
+  padding-top: 61px;
 }
-.left a {
+.head .left .boll {
+  margin-left: 163px;
+  max-width: 99px;
+}
+.head .left .boll a {
   font-family: "Product Sans";
   font-size: 24px;
   line-height: 29px;
-  font-weight: bold;
   color: #5282f0;
+  margin-left: 4.09px;
 }
-.left h1 {
+.head .left .iforma {
+  padding-top: 137px;
+}
+.head .left .iforma h2 {
   font-family: "Lato";
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
-  line-height: 48px;
-  display: flex;
-  align-items: flex-end;
-  letter-spacing: 0.039em;
+  line-height: 47px;
+  letter-spacing: 0.03em;
   color: #333333;
-  margin-top: 24.4%;
-  max-width: 546px;
+  width: 546px;
+  margin-left: 163px;
 }
-.left p {
-  font-family: "Lato";
+.head .left .iforma p {
+  font-family: Lato;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 26px;
   color: #4f4f4f;
-  margin-top: 5%;
-  max-width: 453px;
-  letter-spacing: 0.003em;
-}
-.btng1 {
-  display: flex;
-}
-.bn1 {
-  margin-top: 9.5%;
-}
-.btn1 {
-  padding: 23.5px 78px;
-  border-radius: 6px;
-  background-image: url(../icons/AppleStore1.svg);
-}
-.bn2 {
-  margin-top: 9.5%;
-  margin-left: 6.45%;
-}
-.btn2 {
-  padding: 23.5px 78px;
-  border-radius: 6px;
-  background-image: url(../icons/GooglePlay1.svg);
-}
-
-.contener1 {
-  height: 592px;
-  display: flex;
-  background: rgb(213, 32, 71);
-  background: linear-gradient(
-      90deg,
-      rgba(213, 32, 71, 0) 0%,
-      rgba(255, 255, 255, 1) 48%
-    ),
-    url(../icons/Rectangle1.svg);
-
-  background-repeat: no-repeat;
-}
-.left6 {
-  background-repeat: no-repeat;
-  background-position: 270px 295px;
-  margin-right: 168px;
-}
-.left6up {
-  background-color: #ffffff;
-  padding-top: 27.26px;
-  box-shadow: -15.1278px 16.3884px 33.6173px rgba(0, 0, 0, 0.5);
-  border-radius: 2.74531px;
-  z-index: 2;
-  margin-top: 109px;
+  width: 453px;
+  padding-top: 26px;
   margin-left: 163px;
-  margin-right: 100px;
-  position: absolute;
-  z-index: 2;
 }
-.left6up .clan {
-  margin-left: 4.3%;
-}
-.left6up p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16.7833px;
-  line-height: 22px;
-
-  color: #4f4f4f;
-}
-.left6up h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-  color: #000000;
-  width: 77px;
-  margin-top: 11%;
-}
-.left6up h3 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 21px;
-  color: #000000;
-  margin-top: 15%;
-}
-.left6up h4 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18.8812px;
-  line-height: 25px;
-  color: #4f4f4f;
-  width: 255px;
-}
-.l6upl {
+.head .btngrup {
   display: flex;
+  padding-top: 50px;
+  padding-bottom: 164px;
+  margin-left: 163px;
+  max-width: 355;
 }
-.fkclube {
-  display: flex;
-}
-.left6up .chek {
-  padding: 13.63px 26.24px 10.48px 15.47px;
-  background-color: #eeeeee;
-  border-radius: 0px 0px 4px 4px;
-  margin-top: 6.4%;
-}
-.fkclube .Arsenal {
-  z-index: 1;
-  margin-left: 112%;
-  margin-top: 26%;
-  width: 72px;
-  height: 85px;
-}
-.fkclube .Chelsea {
-  z-index: 2;
-  margin-left: 80%;
-  margin-top: 22%;
-  width: 85px;
-  height: 84px;
-}
-.chek {
-  display: flex;
-}
-.chek .kr {
-  z-index: 3;
-  margin-left: 27px;
-  margin-top: 1px;
-  position: absolute;
-  width: 26px;
-  height: 26px;
-}
-.chek .pl {
-  z-index: 1;
-  margin-left: 36px;
-  margin-top: 5px;
-  width: 28px;
-  height: 14px;
-}
-.left6down {
-  z-index: 1;
-  padding-top: 168px;
-  background-image: url(../icons/Rectangle3.svg);
-  position: relative;
-  z-index: 1;
-  border-radius: 4px;
-  margin-top: 296px;
-  margin-left: 269px;
-}
-.l6d {
-  display: flex;
-  border-radius: 0px 0px 4px 4px;
-  padding: 17.5px 15.83px 16.77px 21px;
-  background-color: black;
-  opacity: 0.6;
-}
-.l6d p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 12px;
-  line-height: 14px;
-  color: #ffffff;
-}
-.l6d .wec1 {
-  margin-right: 19px;
-  width: 12px;
-  height: 14px;
-}
-.l6d .pol {
-  margin: 0 13px;
-  width: 172px;
-  height: 10px;
-}
-.l6d .wec2 {
-  margin-left: 13.83px;
-  width: 20px;
-  height: 15px;
-}
-.rite6 {
-  margin-top: 132px;
-}
-.rite6 h3 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #00adee;
-}
-.rite6 h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-  color: #333333;
-  margin-top: 28px;
-}
-.rite6 p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-  color: #4f4f4f;
-  width: 410px;
-  margin-top: 25px;
-}
-.rite6 a {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #00adee;
-}
-
-.rite6 .Learn {
-  margin-top: 24px;
-  margin-bottom: 87px;
-}
-.contener2 {
-  display: flex;
-  background-color: #ffffff;
-  background-image: url(../icons/SAMPLE05.svg);
+.head .btngrup .bt1 .btn1 {
+  border: 0;
+  padding: 23.5px 78px;
+  border-radius: 7.33503px;
   background-repeat: no-repeat;
-  width: 1440px;
-  height: 716px;
+  background-image: url(../icons/AppleStore.svg);
 }
-.left7 {
-  margin-left: 162px;
-}
-.left7 h3 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #00adee;
-  margin-top: 216px;
-}
-.left7 h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-  color: #333333;
-  margin-top: 28px;
-}
-.left7 p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-  color: #4f4f4f;
-  max-width: 470px;
-  margin-top: 25px;
-}
-.left7 a {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #00adee;
-}
-.left7 .Learn2 {
-  margin-top: 55px;
-}
-.reit7 {
-  display: flex;
-}
-.reit7 .belss {
-  width: 123px;
-  height: 123px;
-  position: relative;
-  z-index: 2;
-  margin-top: 129px;
-  margin-left: 218px;
-}
-.reit7 .phon-center {
-  width: 353px;
-  height: 612px;
-  position: absolute;
-  z-index: 1;
-  margin-top: 78px;
-  margin-left: 209px;
-}
-.reit7 .phon-center1 {
-  display: none;
-}
-.reit7 .coll {
-  z-index: 3;
-  margin-left: 131px;
-  margin-top: 300px;
-}
-.reit7 .bay {
-  position: relative;
-  z-index: 3;
-  display: none;
-}
-.contener3 {
-  width: 1440;
-  height: 735px;
-  background-image: url(../icons/Group6961.svg);
-}
-.contener3 h1 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-  color: #ffffff;
-  padding-top: 75px;
-  padding-left: 467px;
-}
-.contener3 p {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 23px;
-  color: #ffffff;
-  margin-right: 90px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  width: 311px;
-}
-.block1 {
-  display: flex;
-  margin-left: 165px;
-  margin-top: 60px;
-}
-.block2 {
-  display: flex;
-  margin-left: 165px;
-  margin-top: 50px;
-}
-.block3 {
-  display: flex;
-  align-items: baseline;
-  margin-top: 30px;
-  margin-left: 165px;
-}
-.contener4 {
-  margin-top: 67px;
-}
-.contener4 .slayd {
-  display: flex;
-}
-.contener4 h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-  color: #333333;
-  margin-left: 595px;
-  margin-bottom: 64px;
-}
-
-.contener4 h3 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
-  color: #333333;
-  margin-left: 10px;
-  margin-top: 3px;
-  margin-right: 126px;
-}
-.contener4 p {
-  margin-top: 18px;
-  width: 260px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 18px;
-  color: #4f4f4f;
-}
-.contener4 .bloc1 {
-  display: block;
-  background-repeat: no-repeat;
-  background-image: url(../icons/Group699.3.svg);
-}
-.bloc1 .ctr1 {
-  margin-left: 92px;
-  margin-top: 52px;
-}
-.contener4 .bloc2 {
-  border: 1px solid #828282;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 15px 13px 24px 17px;
-  margin-left: 11px;
-  display: block;
-}
-
-.bloc2 .part2 {
-  display: flex;
-}
-.contener4 .bloc3 {
-  border: 1px solid #828282;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 15px 13px 24px 17px;
-  margin-left: 36px;
-  position: relative;
-}
-.bloc3 h3 {
-  margin-right: 119px;
-}
-.bloc3 .part2 {
-  display: flex;
-}
-.bloc4 .part2 {
-  display: flex;
-}
-.contener4 .bloc4 {
-  border: 1px solid #828282;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 15px 10px 24px 17px;
-  margin-left: 36px;
-  display: block;
-}
-.bloc4 p {
-  width: 279px;
-}
-.bloc4 h3 {
-  margin-right: 113px;
-}
-.bloc5 {
+.head .btngrup .bt2 {
   margin-left: 35px;
+}
+.head .btngrup .bt2 .btn2 {
+  border: 0;
+  padding: 23.5px 79px;
+  border-radius: 7.33503px;
   background-repeat: no-repeat;
-  background-image: url(../icons/Group699.1.png);
+  background-image: url(../icons/GooglePlay.svg);
 }
-.bloc5 .ctr2 {
-  margin-left: 78px;
-  margin-top: 52px;
-  position: relative;
-}
-.under1 {
-  margin-top: 47px;
-  margin-left: 649px;
-}
-.contener5 {
-  margin-top: 96px;
-}
-.contener5 h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-  color: #333333;
-  margin-left: 562px;
-}
-.contener5 .grup {
-  display: flex;
-  margin-top: 58px;
-}
-.contener5 .grup1 {
-  display: flex;
-}
-.contener5 .grup2 {
-  display: flex;
-}
-.contener5 .grup3 {
-  display: flex;
-}
-.imgg1 {
-  margin-left: 180px;
-  margin-top: 6px;
-}
-.imgg2 {
-  margin-left: 77px;
-  margin-top: 15px;
-}
-.imgg3 {
-  margin-left: 79px;
-  margin-top: 2px;
-}
-.imgg4 {
-  margin-left: 79px;
-  margin-top: 15px;
-}
-.imgg5 {
-  margin-left: 79px;
-  margin-top: 0px;
-}
-.imgg6 {
-  margin-left: 79px;
-  margin-top: 14px;
-}
-.contener6 {
-  display: flex;
-  margin-top: 66px;
-}
-.contener6 .img {
-  width: 666px;
-  height: 483px;
-  background-image: url(../icons/Frame2.svg);
-}
-.contener6 h2 {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 37px;
-  color: #333333;
-  margin-top: 103px;
-  margin-left: 80px;
-}
-.contener6 p {
-  width: 530px;
-  margin-left: 76.6px;
-  margin-top: 33px;
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 25px;
-  color: #4f4f4f;
-}
-.btn0 {
-  display: flex;
-  margin-left: 76.6px;
-  margin-top: 41px;
-}
-.btn3 {
-  padding: 23.5px 78px;
-  border-radius: 6px;
-  background-image: url(../icons/AppleStore1.svg);
-}
-.btn4 {
-  padding: 23.5px 78px;
-  border-radius: 6px;
-  background-image: url(../icons/GooglePlay1.svg);
-}
-.btn5 {
-  margin-left: 36px;
-}
-.fut {
-  background-color: #00adee;
-  height: 127px;
-  display: flex;
-}
-.blo {
-  margin-left: 163px;
-  margin-top: 44px;
-  display: block;
-}
-.blo .boll {
-  margin-top: 5px;
-}
-.fut a {
-  font-family: "Product Sans";
-  font-size: 24px;
-  line-height: 29px;
-  letter-spacing: -0.02em;
-  color: #ffffff;
-  margin-left: 3px;
-}
-.tbl {
-  margin-top: 53px;
-  margin-left: 273px;
-}
-.tbl a {
-  font-family: "Lato";
-  font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 21px;
-  color: #ffffff;
-  padding-right: 34px;
-}
-.fut li {
-  display: inline;
-}
-.cets {
-  margin-left: 225px;
-  margin-top: 52px;
-}
-.cets1 {
-  margin-left: 10px;
-}
-.cets2 {
-  margin-left: 10px;
-}
-.tbl2 {
-  display: inline;
-}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,74 @@
+@media (max-width: 360px) {
+  body {
+    max-width: 360px;
+  }
+
+  .head {
+    max-width: 360px;
+    background-image: none;
+    background-color: #f4f6f9;
+  }
+  .head .left {
+    padding-top: 32px;
+  }
+  .head .left .boll {
+    margin: auto;
+  }
+  .head .left .boll a {
+    font-family: "Product Sans";
+    font-size: 24px;
+    line-height: 29px;
+    color: #5282f0;
+    margin-left: 4.09px;
+  }
+  .head .left .iforma {
+    padding-top: 88px;
+  }
+  .head .left .iforma h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0.03em;
+    color: #333333;
+    max-width: 320px;
+    text-align: center;
+  }
+  .head .left .iforma p {
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4f4f4f;
+    max-width: 320px;
+    padding-top: 28px;
+    text-align: center;
+  }
+  .head .btngrup {
+    display: flex;
+    padding-top: 51px;
+    padding-bottom: 59px;
+    max-width: 323px;
+  }
+  .head .btngrup .bt1 .btn1 {
+    border: 0;
+    padding: 22px 72.845px;
+    border-radius: 6.85753px;
+    background-repeat: no-repeat;
+    background-image: url(../icons/AppleStore2.svg);
+  }
+  .head .btngrup .bt2 {
+    padding-left: 0px;
+  }
+  .head .btngrup .bt2 .btn2 {
+    border: 0;
+    padding: 22px 72.845px;
+    border-radius: 6.85753px;
+    background-repeat: no-repeat;
+    background-image: url(../icons/GooglePlay2.svg);
+  }
+}
+
+/*# sourceMappingURL=phons.css.map */

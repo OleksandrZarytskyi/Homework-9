@@ -36,7 +36,7 @@ footer, header, hgroup, main, menu, nav, section {
 body {
     line-height: 1;
 }
-menu, ol, {
+menu, ol, ul {
     list-style: none;
 }
 blockquote, q {
@@ -78,4 +78,6 @@ select:-webkit-autofill:focus {
 a {
   text-decoration: none;
 }
-button {border: none; cursor: pointer;}
+button, a {
+  cursor: pointer;
+}
