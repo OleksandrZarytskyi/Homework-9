@@ -1,5 +1,5 @@
 body {
-  width: 1440px;
+  max-width: 1440px;
 }
 .head {
   max-width: 1440px;
@@ -12,7 +12,7 @@ body {
 
     .boll {
       margin-left: 163px;
-      max-width: 99px;
+
       a {
         font-family: "Product Sans";
         font-size: 24px;
@@ -31,7 +31,7 @@ body {
         line-height: 47px;
         letter-spacing: 0.03em;
         color: #333333;
-        width: 546px;
+        max-width: 546px;
         margin-left: 163px;
       }
       p {
@@ -52,7 +52,7 @@ body {
     padding-top: 50px;
     padding-bottom: 164px;
     margin-left: 163px;
-    max-width: 355;
+
     .bt1 {
       .btn1 {
         border: 0;
@@ -63,7 +63,7 @@ body {
       }
     }
     .bt2 {
-      margin-left: 35px;
+      padding-left: 35px;
       .btn2 {
         border: 0;
         padding: 23.5px 79px;

@@ -1,5 +1,5 @@
 body {
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .head {
@@ -14,7 +14,6 @@ body {
 }
 .head .left .boll {
   margin-left: 163px;
-  max-width: 99px;
 }
 .head .left .boll a {
   font-family: "Product Sans";
@@ -34,7 +33,7 @@ body {
   line-height: 47px;
   letter-spacing: 0.03em;
   color: #333333;
-  width: 546px;
+  max-width: 546px;
   margin-left: 163px;
 }
 .head .left .iforma p {
@@ -53,7 +52,6 @@ body {
   padding-top: 50px;
   padding-bottom: 164px;
   margin-left: 163px;
-  max-width: 355;
 }
 .head .btngrup .bt1 .btn1 {
   border: 0;
@@ -63,7 +61,7 @@ body {
   background-image: url(../icons/AppleStore.svg);
 }
 .head .btngrup .bt2 {
-  margin-left: 35px;
+  padding-left: 35px;
 }
 .head .btngrup .bt2 .btn2 {
   border: 0;
