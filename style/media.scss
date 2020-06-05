@@ -78,7 +78,7 @@
     }
   }
   .conteyner1 {
-    max-width: 1440px;
+    max-width: 720px;
     background: linear-gradient(
         90deg,
         rgba(213, 32, 71, 0) 0%,
@@ -293,6 +293,103 @@
           line-height: 21px;
           color: #00adee;
         }
+      }
+    }
+  }
+  .conteyner2 {
+    max-width: 720px;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+
+    .left {
+      margin: auto;
+      h3 {
+        margin: auto;
+        padding-top: 94px;
+        max-width: 118px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #00adee;
+      }
+      h2 {
+        margin: auto;
+        padding-top: 27px;
+        max-width: 297px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        color: #333333;
+      }
+      p {
+        padding-top: 26px;
+        max-width: 480px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #4f4f4f;
+        margin: auto;
+        text-align: center;
+      }
+      .learn {
+        padding-top: 54px;
+        max-width: 82px;
+        margin: auto;
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 21px;
+          color: #00adee;
+        }
+      }
+    }
+    .right {
+      background-image: url(../icons/Group672.svg);
+      background-repeat: no-repeat;
+      background-position-x: -710px;
+      .big {
+        position: absolute;
+        z-index: 1;
+        margin-left: 140px;
+        margin-top: 54px;
+      }
+      .litle {
+        display: none;
+      }
+      .col {
+        position: relative;
+        z-index: 2;
+        margin-top: 105px;
+        margin-left: 158px;
+        .dzen {
+          width: 123px;
+          height: 123px;
+        }
+      }
+      .pho {
+        position: relative;
+        z-index: 2;
+        margin-left: 402px;
+        margin-top: 201px;
+        padding-bottom: 0px;
+      }
+      .pey {
+        display: none;
+      }
+      .dot {
+        position: relative;
+        z-index: 3;
+        margin-top: -15px;
+        margin-left: 87px;
       }
     }
   }

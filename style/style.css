@@ -289,4 +289,95 @@ body {
   color: #00adee;
 }
 
+.conteyner2 {
+  max-width: 1440px;
+  display: flex;
+  background-color: #ffffff;
+  background-image: url(../icons/Group672.svg);
+  background-repeat: no-repeat;
+  background-position-y: 76px;
+  flex-direction: row;
+}
+.conteyner2 .left {
+  margin-left: 162px;
+}
+.conteyner2 .left h3 {
+  padding-top: 294px;
+  max-width: 118px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+.conteyner2 .left h2 {
+  padding-top: 27px;
+  max-width: 297px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 37px;
+  color: #333333;
+}
+.conteyner2 .left p {
+  padding-top: 26px;
+  max-width: 480px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4f4f4f;
+}
+.conteyner2 .left .learn {
+  padding-top: 54px;
+  max-width: 82px;
+  padding-bottom: 0px;
+}
+.conteyner2 .left .learn a {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 21px;
+  color: #00adee;
+}
+.conteyner2 .right .big {
+  position: absolute;
+  z-index: 1;
+  margin-left: 198px;
+  margin-top: 154px;
+}
+.conteyner2 .right .litle {
+  display: none;
+}
+.conteyner2 .right .col {
+  position: relative;
+  z-index: 2;
+  margin-top: 205px;
+  margin-left: 208px;
+}
+.conteyner2 .right .col .dzen {
+  width: 123px;
+  height: 123px;
+}
+.conteyner2 .right .pho {
+  position: relative;
+  z-index: 2;
+  margin-left: 462px;
+  margin-top: 191px;
+}
+.conteyner2 .right .pey {
+  display: none;
+}
+.conteyner2 .right .dot {
+  position: relative;
+  z-index: 3;
+  margin-top: -73px;
+  margin-left: 117px;
+  padding-bottom: 200px;
+}
+
 /*# sourceMappingURL=style.css.map */
