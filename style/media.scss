@@ -1,6 +1,9 @@
 @media (max-width: 720px) {
   body {
+    margin: auto;
     max-width: 720px;
+    display: flex;
+    flex-direction: column;
   }
   .head {
     max-width: 720px;
@@ -63,13 +66,232 @@
         }
       }
       .bt2 {
-        padding-left: 0px;
+        padding-left: 35px;
         .btn2 {
           border: 0;
           padding: 23.5px 79px;
           border-radius: 7.33503px;
           background-repeat: no-repeat;
           background-image: url(../icons/GooglePlay.svg);
+        }
+      }
+    }
+  }
+  .conteyner1 {
+    max-width: 1440px;
+    background: linear-gradient(
+        90deg,
+        rgba(213, 32, 71, 0) 0%,
+        rgba(255, 255, 255, 1) 48%
+      ),
+      url(../icons/Rectangle1.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap;
+    .left {
+      max-width: 790px;
+      .top {
+        position: absolute;
+        z-index: 2;
+        margin-top: 109px;
+        margin-left: 10px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+        .top1 {
+          display: flex;
+          .left1 {
+            margin-left: 15.74px;
+            h2 {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: bold;
+              font-size: 16.7833px;
+              line-height: 22px;
+              color: #4f4f4f;
+              max-width: 100px;
+              margin-top: 28.26px;
+            }
+            h3 {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: 500;
+              font-size: 18px;
+              line-height: 24px;
+              max-width: 76.26px;
+              color: #000000;
+              margin-top: 13.58px;
+            }
+            p {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: normal;
+              font-size: 16px;
+              line-height: 21px;
+              max-width: 123.85px;
+              color: #000000;
+              margin-top: 16.63px;
+            }
+          }
+          .right1 {
+            .arcenal {
+              margin-top: 46.13px;
+              margin-left: 81.11px;
+              position: absolute;
+              z-index: 1;
+            }
+            .chelsea {
+              position: relative;
+              z-index: 2;
+              margin-left: 140px;
+              margin-top: 46.13px;
+            }
+          }
+        }
+        .botom1 {
+          display: flex;
+          background-color: #eeeeee;
+          border-radius: 0px 0px 4px 4px;
+          margin-top: 19px;
+          padding: 14.68px 26.24px 9.63px 15.74px;
+          .txt {
+            p {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: normal;
+              font-size: 18.8812px;
+              line-height: 25px;
+              color: #4f4f4f;
+            }
+          }
+          .swich {
+            .col {
+              padding: 10.5px;
+              background-color: #ffffff;
+              box-shadow: 0px 2.09791px 2.09791px rgba(0, 0, 0, 0.25);
+              border-radius: 50%;
+              position: absolute;
+              z-index: 2;
+              margin-left: 33.59px;
+            }
+            .pal {
+              padding: 6.29px 13.65px;
+              background-color: #979797;
+              border-radius: 104.896px;
+              margin-left: 39.88px;
+              margin-top: 5px;
+            }
+          }
+        }
+      }
+      .bootom {
+        background-image: url(../icons/Rectangle2.svg);
+        position: relative;
+        z-index: 1;
+        max-width: 360px;
+        margin-top: 296px;
+        margin-left: 120px;
+        border-radius: 4px;
+        .top2 {
+          padding-top: 169px;
+        }
+        .botom2 {
+          display: flex;
+          padding: 17.5px 15.83px 14.27px 21px;
+          background-color: #000000;
+          opacity: 0.6;
+          border-radius: 0px 0px 4px 4px;
+          .stop {
+            .sto {
+              width: 12px;
+              height: 14px;
+            }
+          }
+          .time1 {
+            margin-left: 19px;
+            p {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: bold;
+              font-size: 12px;
+              line-height: 14px;
+              color: #ffffff;
+            }
+          }
+          .lenea {
+            margin-left: 13px;
+            .vec {
+              width: 172px;
+              height: 10px;
+            }
+          }
+          .time2 {
+            margin-left: 13px;
+            p {
+              font-family: "Lato";
+              font-style: normal;
+              font-weight: bold;
+              font-size: 12px;
+              line-height: 14px;
+              color: #ffffff;
+            }
+          }
+          .skr {
+            margin-left: 13.83px;
+            .sku {
+              width: 18px;
+              height: 16px;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      margin: auto;
+      h3 {
+        margin: auto;
+        padding-top: 133px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 21px;
+        color: #00adee;
+        max-width: 120px;
+      }
+      h2 {
+        margin: auto;
+        padding-top: 28px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 37px;
+        color: #333333;
+        max-width: 426px;
+      }
+      p {
+        max-width: 407px;
+        margin: auto;
+        padding-top: 26px;
+        font-family: "Lato";
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 23px;
+        color: #4f4f4f;
+      }
+      .sul {
+        padding-top: 22px;
+        margin: auto;
+        max-width: 82px;
+        a {
+          font-family: "Lato";
+          font-style: normal;
+          font-weight: bold;
+          font-size: 16px;
+          line-height: 21px;
+          color: #00adee;
         }
       }
     }

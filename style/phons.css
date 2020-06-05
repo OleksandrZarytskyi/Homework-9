@@ -1,6 +1,9 @@
 @media (max-width: 360px) {
   body {
+    margin: auto;
     max-width: 360px;
+    display: flex;
+    flex-direction: column;
   }
 
   .head {
@@ -34,9 +37,10 @@
     color: #333333;
     max-width: 320px;
     text-align: center;
+    margin: auto;
   }
   .head .left .iforma p {
-    font-family: Lato;
+    font-family: "Lato";
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -45,11 +49,12 @@
     max-width: 320px;
     padding-top: 28px;
     text-align: center;
+    margin: auto;
   }
   .head .btngrup {
     display: flex;
     padding-top: 51px;
-    padding-bottom: 59px;
+    padding-bottom: 113px;
     max-width: 323px;
   }
   .head .btngrup .bt1 .btn1 {
@@ -60,7 +65,7 @@
     background-image: url(../icons/AppleStore2.svg);
   }
   .head .btngrup .bt2 {
-    padding-left: 0px;
+    padding-left: 28px;
   }
   .head .btngrup .bt2 .btn2 {
     border: 0;
@@ -68,6 +73,227 @@
     border-radius: 6.85753px;
     background-repeat: no-repeat;
     background-image: url(../icons/GooglePlay2.svg);
+  }
+
+  .conteyner1 {
+    max-width: 1440px;
+    background: linear-gradient(90deg, rgba(213, 32, 71, 0) 0%, white 48%), url(../icons/Rectangle1.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+  .conteyner1 .left {
+    max-width: 790px;
+  }
+  .conteyner1 .left .top {
+    position: absolute;
+    z-index: 2;
+    margin-top: 92px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: -22.0416px 23.8785px 48.9814px rgba(0, 0, 0, 0.5);
+  }
+  .conteyner1 .left .top .top1 {
+    display: flex;
+  }
+  .conteyner1 .left .top .top1 .left1 {
+    margin-left: 10.81px;
+  }
+  .conteyner1 .left .top .top1 .left1 h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11.5188px;
+    line-height: 15px;
+    color: #4f4f4f;
+    max-width: 69px;
+    margin-top: 18.7px;
+  }
+  .conteyner1 .left .top .top1 .left1 h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.3539px;
+    line-height: 16px;
+    max-width: 53px;
+    color: #000000;
+    margin-top: 8.63px;
+  }
+  .conteyner1 .left .top .top1 .left1 p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10.9812px;
+    line-height: 14px;
+    max-width: 85.5px;
+    color: #000000;
+    margin-top: 11.35px;
+  }
+  .conteyner1 .left .top .top1 .right1 .arcenal {
+    margin-top: 31.46px;
+    margin-left: 55.82px;
+    position: absolute;
+    z-index: 1;
+  }
+  .conteyner1 .left .top .top1 .right1 .arcenal .ars {
+    width: 48.76px;
+    height: 57.53px;
+  }
+  .conteyner1 .left .top .top1 .right1 .chelsea {
+    position: relative;
+    z-index: 2;
+    margin-left: 97px;
+    margin-top: 30.64px;
+  }
+  .conteyner1 .left .top .top1 .right1 .chelsea .chel {
+    width: 57.66px;
+    height: 57.53px;
+  }
+  .conteyner1 .left .top .botom1 {
+    display: flex;
+    background-color: #eeeeee;
+    border-radius: 0px 0px 4px 4px;
+    margin-top: 13.51px;
+    padding: 12.07px 18.02px 5.35px 10.81px;
+  }
+  .conteyner1 .left .top .botom1 .txt p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12.9587px;
+    line-height: 17px;
+    color: #4f4f4f;
+  }
+  .conteyner1 .left .top .botom1 .swich .col {
+    padding: 7.2px;
+    background-color: #ffffff;
+    box-shadow: 0px 2.09791px 2.09791px rgba(0, 0, 0, 0.25);
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    margin-left: 23.06px;
+  }
+  .conteyner1 .left .top .botom1 .swich .pal {
+    padding: 4.315px 9.357px;
+    background-color: #979797;
+    border-radius: 71.9927px;
+    margin-left: 27.88px;
+    margin-top: 3px;
+  }
+  .conteyner1 .left .bootom {
+    background-image: url(../icons/Rectangle4.svg);
+    position: relative;
+    z-index: 1;
+    max-width: 360px;
+    margin-top: 219px;
+    margin-left: 92.79px;
+    border-radius: 4px;
+  }
+  .conteyner1 .left .bootom .top2 {
+    padding-top: 113.93px;
+  }
+  .conteyner1 .left .bootom .botom2 {
+    display: flex;
+    padding: 12px 10.87px 9.51px 14.42px;
+    background-color: #000000;
+    opacity: 0.6;
+    border-radius: 0px 0px 4px 4px;
+  }
+  .conteyner1 .left .bootom .botom2 .stop {
+    margin-top: 0px;
+  }
+  .conteyner1 .left .bootom .botom2 .stop .sto {
+    width: 8.24px;
+    height: 9.6px;
+  }
+  .conteyner1 .left .bootom .botom2 .time1 {
+    margin-left: 13.05px;
+    margin-bottom: 0px;
+  }
+  .conteyner1 .left .bootom .botom2 .time1 p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8.23592px;
+    line-height: 10px;
+    color: #ffffff;
+  }
+  .conteyner1 .left .bootom .botom2 .lenea {
+    margin-left: 8.93px;
+  }
+  .conteyner1 .left .bootom .botom2 .lenea .vec {
+    width: 118.11px;
+    height: 6.86px;
+  }
+  .conteyner1 .left .bootom .botom2 .time2 {
+    margin-left: 8.93px;
+  }
+  .conteyner1 .left .bootom .botom2 .time2 p {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 8.23592px;
+    line-height: 10px;
+    color: #ffffff;
+  }
+  .conteyner1 .left .bootom .botom2 .skr {
+    margin-left: 9.5px;
+  }
+  .conteyner1 .left .bootom .botom2 .skr .sku {
+    width: 12.59px;
+    height: 10.29px;
+  }
+  .conteyner1 .right {
+    margin: auto;
+  }
+  .conteyner1 .right h3 {
+    margin: auto;
+    padding-top: 0px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
+    max-width: 120px;
+  }
+  .conteyner1 .right h2 {
+    margin: auto;
+    padding-top: 30px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 37px;
+    color: #333333;
+    max-width: 320px;
+    text-align: center;
+  }
+  .conteyner1 .right p {
+    max-width: 320px;
+    margin: auto;
+    padding-top: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #4f4f4f;
+    text-align: center;
+  }
+  .conteyner1 .right .sul {
+    padding-top: 23px;
+    margin: auto;
+    max-width: 82px;
+  }
+  .conteyner1 .right .sul a {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #00adee;
   }
 }
 
